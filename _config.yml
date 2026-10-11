@@ -1,0 +1,29 @@
+title: Alain Mugisha | Portfolio
+description: Java Developer & Systems Engineer - 5 Years of Experience in Technology & Retail Management
+author: Alain Mugisha
+email: mugishalain742@gmail.com
+github_username: Malin250
+linkedin_username: mugisha-alain-155451222
+
+# Build settings
+theme: jekyll-theme-minimal
+markdown: kramdown
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude files
+exclude:
+  - .jekyll-cache/
+  - .git/
+  - node_modules/
+  - vendor/
+
+# Show excerpts
+show_excerpts: true
+
+# Permalink structure
+permalink: /:title/
