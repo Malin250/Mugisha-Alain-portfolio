@@ -9,6 +9,7 @@
   <meta property="og:title" content="Alain Mugisha — Software Developer">
   <meta property="og:description" content="Software development, systems thinking, and practical problem solving.">
   <title>Alain Mugisha — Software Developer</title>
+  <link rel="icon" type="image/svg+xml" href="assets/brand-mark.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -64,7 +65,7 @@
     .hero::after { width: 55rem; height: 55rem; top: -18rem; right: -18rem; border-radius: 50%; background: radial-gradient(circle, rgba(118,89,181,.23), transparent 67%); filter: blur(12px); }
     .site-header { position: relative; z-index: 5; display: flex; align-items: center; justify-content: space-between; min-height: 92px; border-bottom: 1px solid var(--line-light); }
     .brand { display: inline-flex; align-items: center; gap: .8rem; }
-    .brand-mark { display: grid; width: 42px; height: 42px; place-items: center; border: 1px solid rgba(201,243,106,.72); border-radius: 50%; color: var(--lime); font-family: var(--display-font); font-size: .85rem; font-weight: 700; letter-spacing: -.08em; }
+    .brand-mark { display: block; width: 42px; height: 42px; flex: 0 0 auto; }
     .brand-copy { display: grid; gap: .12rem; }
     .brand-copy strong { font-size: .78rem; letter-spacing: .08em; }
     .brand-copy small { color: #a7a4b1; font-size: .68rem; }
@@ -308,7 +309,7 @@
       <div class="wrap">
         <header class="site-header">
           <a class="brand" href="#home" aria-label="Alain Mugisha, home">
-            <span class="brand-mark" aria-hidden="true">AM</span>
+            <img class="brand-mark" src="assets/brand-mark.svg" alt="" width="42" height="42" aria-hidden="true">
             <span class="brand-copy"><strong>ALAIN MUGISHA</strong><small>Software developer</small></span>
           </a>
           <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
